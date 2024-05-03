@@ -1,0 +1,302 @@
+.frase_de_kiyosaki {
+    @include flex(auto, center, auto);
+    background-color: black;
+
+    img {
+        @include img(1000px, auto, cover);
+    }
+}
+
+@media (max-width: 995px) {
+    .frase_de_kiyosaki {
+        img {
+            width: 800px;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .frase_de_kiyosaki {
+        img {
+            width: 700px;
+        }
+    }
+}
+
+@media (max-width: 710px) {
+    .frase_de_kiyosaki {
+        img {
+            width: 600px;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .frase_de_kiyosaki {
+        img {
+            width: 500px;
+        }
+    }
+}
+
+@media (max-width: 525px) {
+    .frase_de_kiyosaki {
+        img {
+            width: 400px;
+        }
+    }
+}
+
+@media (max-width: 405px) {
+    .frase_de_kiyosaki {
+        img {
+            width: 350px;
+        }
+    }
+}
+
+@media (max-width: 350px) {
+    .frase_de_kiyosaki {
+        img {
+            width: 315px;
+        }
+    }
+}
+
+.seccion_criticas {
+    background-color: $color_main;
+}
+
+.criticas_titulo {
+    @include flex(auto, center, auto);
+
+    h2 {
+        @include texto($fuente_titulos, 40px, center, $color_blanco);
+        text-decoration: underline;
+        margin-top: 50px;
+    }
+}
+
+.criticas_texto {
+    @include flex(wrap, center, auto);
+
+    p {
+        @include texto($fuente_texto, 25px, justify, $color_blanco);
+        margin-top: 40px;
+        width: 1400px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .criticas_titulo {
+        h2 {
+            font-size: 35px;
+        }
+    }
+}
+
+@media (max-width: 870px) {
+    .criticas_titulo {
+        h2 {
+            font-size: 30px;
+        }
+    }
+}
+
+@media (max-width: 735px) {
+    .criticas_titulo {
+        h2 {
+            font-size: 25px;
+        }
+    }
+}
+
+@media (max-width: 590px) {
+    .criticas_titulo {
+        h2 {
+            font-size: 23px;
+        }
+    }
+}
+
+@media (max-width: 530px) {
+    .criticas_titulo {
+        h2 {
+            width: 300px;
+        }
+    }
+}
+
+@media (max-width: 530px) {
+    .criticas_titulo {
+        h2 {
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .criticas_titulo {
+        h2 {
+            width: 250px;
+        }
+    }
+}
+
+@media (max-width: 1550px) {
+    .criticas_texto {
+        p {
+            font-size: 23px;
+        }
+    }
+}
+
+@media (max-width: 1485px) {
+    .criticas_texto {
+        p {
+            width: 1300px;
+        }
+    }
+}
+
+@media (max-width: 1400px) {
+    .criticas_texto {
+        p {
+            width: 1200px;
+        }
+    }
+}
+
+@media (max-width: 1275px) {
+    .criticas_texto {
+        p {
+            width: 1100px;
+        }
+    }
+}
+
+@media (max-width: 1180px) {
+    .criticas_texto {
+        p {
+            width: 1000px;
+        }
+    }
+}
+
+@media (max-width: 1075px) {
+    .criticas_texto {
+        p {
+            width: 900px;
+        }
+    }
+}
+
+@media (max-width: 975px) {
+    .criticas_texto {
+        p {
+            width: 800px;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .criticas_texto {
+        p {
+            text-align: center;
+            width: 700px;
+        }
+    }
+}
+
+@media (max-width: 870px) {
+    .criticas_texto {
+        p {
+            width: 600px;
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 735px) {
+    .criticas_texto {
+        p {
+            width: 500px;
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width: 590px) {
+    .criticas_texto {
+        p {
+            width: 400px;
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 440px) {
+    .criticas_texto {
+        p {
+            width: 300px;
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .criticas_texto {
+        p {
+            width: 250px;
+        }
+    }
+}
+
+.video {
+    @include flex(auto, center, center);
+    background-color: $color_main;
+    height: 500px;
+}
+
+.video a {
+    @include texto($fuente_titulos, 16px, center, $color_links);
+    display: none;
+}
+
+@media (max-width: 630px) {
+    .video {
+        iframe {
+            width: 500px;
+        }
+    }
+}
+
+@media (max-width: 560px) {
+    .video {
+        iframe {
+            width: 450px;
+        }
+    }
+}
+
+@media (max-width: 510px) {
+    .video {
+        height: 70px;
+        align-items: flex-start;
+
+        iframe {
+            display: none;
+        }
+
+        a {
+            display: block;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .video {
+        a {
+            width: 200px;
+        }
+    }
+}

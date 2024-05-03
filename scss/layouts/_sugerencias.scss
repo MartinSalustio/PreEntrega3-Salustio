@@ -1,0 +1,216 @@
+.cierre {
+    @include flex(auto, center, center);
+    background-color: $color_main;
+    height: 200px;
+
+    p {
+        @include texto($fuente_titulos, 27px, center, $color_blanco);
+        width: 1400px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .cierre {
+        p{
+            width: 1200px;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .cierre {
+        p{
+            font-size: 25px;
+            width: 1100px;
+        }
+    }
+}
+
+@media (max-width: 1100px) {
+    .cierre {
+        p{
+            font-size: 23px;
+            width: 1000px;
+        }
+    }
+}
+
+@media (max-width: 1030px) {
+    .cierre {
+        p{
+            width: 900px;
+        }
+    }
+}
+
+@media (max-width: 950px) {
+    .cierre {
+        p{
+            width: 800px;
+        }
+    }
+}
+
+@media (max-width: 850px) {
+    .cierre {
+        p{
+            width: 700px;
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    .cierre {
+        p{
+            width: 600px;
+        }
+    }
+}
+
+@media (max-width: 720px) {
+    .cierre {
+        p{
+            font-size: 21px;
+        }
+    }
+}
+
+@media (max-width: 630px) {
+    .cierre {
+        p{
+            width: 500px;
+        }
+    }
+}
+
+@media (max-width: 620px) {
+    .cierre {
+        p{
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width: 540px) {
+    .cierre {
+        p{
+            width: 400px;
+        }
+    }
+}
+
+@media (max-width: 460px) {
+    .cierre {
+        p{
+            font-size: 16px;
+            width: 350px;
+        }
+    }
+}
+
+@media (max-width: 390px) {
+    .cierre {
+        p{
+            width: 270px;
+        }
+    }
+}
+
+.libros {
+    background-color: $color_main;
+    @include flex(wrap, space-evenly, auto);
+}
+
+.card {
+    width: 380px;
+    border: none;
+    margin-bottom: 100px;
+}
+
+.card-body {
+    background-color: $color_oscuro;
+    @include flex(auto, auto, center);
+}
+
+.card-text {
+    @include texto($fuente_texto, 20px, center, $color_blanco);
+}
+
+@media (max-width: 1300px) {
+    .card {
+        width: 330px;
+    }
+}
+
+@media (max-width: 1130px) {
+    .card {
+        width: 300px;
+    }
+}
+
+@media (max-width: 1030px) {
+    .card {
+        width: 270px;
+    }
+
+    .card-text {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 950px) {
+    .card {
+        width: 250px;
+    }
+}
+
+@media (max-width: 880px) {
+    .card {
+        width: 230px;
+    }
+}
+
+@media (max-width: 790px) {
+    .card {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .card-text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .card {
+        width: 210px;
+    }
+}
+
+@media (max-width: 560px) {
+    .card {
+        width: 190px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 490px) {
+    .card {
+        width: 300px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 460px) {
+    .card {
+        width: 250px;
+    }
+}
+
+@media (max-width: 390px) {
+    .card {
+        width: 230px;
+    }
+}

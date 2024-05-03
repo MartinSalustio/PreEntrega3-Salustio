@@ -1,0 +1,571 @@
+.seccion_tapa {
+    background-color: $color_main;
+    @include flex(wrap, space-evenly, center);
+
+    img {
+        @include img(500px, auto, cover);
+        margin-top: 20px;
+    }
+
+    p {
+        @include texto($fuente_texto, 30px, center, black);
+        padding: 40px;
+        width: 700px;
+        background-color: $color_dorado;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .seccion_tapa {
+        p {
+            font-size: 25px;
+            width: 600px;
+            padding: 30px;
+        }
+
+        img {
+            width: 400px;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .seccion_tapa {
+        p {
+            font-size: 23px;
+            width: 550px;
+            padding: 25px;
+        }
+
+        img {
+            width: 300px;
+        }
+    }
+}
+
+@media (max-width: 995px) {
+    .seccion_tapa {
+        img {
+            width: 500px;
+        }
+
+        p {
+            font-size: 30px;
+            width: 700px;
+            padding: 40px;
+        }
+    }
+}
+
+@media (max-width: 770px) {
+    .seccion_tapa {
+        img {
+            width: 400px;
+        }
+
+        p {
+            font-size: 25px;
+            width: 600px;
+            padding: 30px;
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .seccion_tapa {
+        img {
+            width: 400px;
+        }
+
+        p {
+            font-size: 21px;
+            width: 500px;
+            padding: 30px;
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .seccion_tapa {
+        p {
+            font-size: 21px;
+            width: 420px;
+            padding: 20px;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .seccion_tapa {
+        img {
+            width: 350px;
+        }
+
+        p {
+            font-size: 20px;
+            width: 380px;
+            padding: 20px;
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    .seccion_tapa {
+        img {
+            width: 300px;
+        }
+
+        p {
+            font-size: 16px;
+            width: 320px;
+            padding: 20px;
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .seccion_tapa {
+        img {
+            width: 250px;
+        }
+
+        p {
+            width: 280px;
+            padding: 15px;
+        }
+    }
+}
+
+.seccion_sinopsis_1 {
+    background-color: $color_main;
+}
+
+.titulo {
+    @include flex(auto, center, flex-end);
+    height: 200px;
+
+    h2 {
+        @include texto($fuente_titulos, 35px, center, $color_blanco);
+        width: 1300px;
+        text-decoration: underline;
+    }
+}
+
+@media (max-width: 1450px) {
+    .titulo h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .titulo h2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 960px) {
+    .titulo h2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 720px) {
+    .titulo h2 {
+        width: 600px;
+    }
+}
+
+@media (max-width: 670px) {
+    .titulo h2 {
+        font-size: 25px;
+        width: 500px;
+    }
+}
+
+@media (max-width: 650px) {
+    .titulo h2 {
+        font-size: 23px;
+        width: 450px;
+    }
+}
+
+@media (max-width: 600px) {
+    .titulo h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    .titulo h2 {
+        font-size: 18px;
+        width: 400px;
+    }
+}
+
+@media (max-width: 400px) {
+    .titulo h2 {
+        font-size: 18px;
+        width: 300px;
+    }
+}
+
+.razon {
+    @include flex(wrap, space-evenly, flex-end);
+    height: 200px;
+
+    img {
+        @include img(180px, auto, cover);
+    }
+
+    p {
+        @include texto($fuente_texto, 25px, justify, $color_blanco);
+        width: 1200px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .razon {
+        p {
+            font-size: 23px;
+            width: 1100px;
+        }
+
+        img {
+            width: 170px;
+        }
+    }
+}
+
+@media (max-width: 1350px) {
+    .razon {
+        p {
+            font-size: 21px;
+            width: 1000px;
+        }
+    
+        img {
+            width: 160px;
+        }
+    }
+}
+
+@media (max-width: 1250px) {
+    .razon {
+        p {
+            font-size: 21px;
+            width: 1100px;
+            text-align: center;
+            margin-right: 30px;
+            margin-left: 30px;
+        }
+
+        img {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .razon {
+        p {
+            font-size: 20px;
+            width: 900px;
+        }
+    }
+}
+
+@media (max-width: 1150px) {
+    .razon {
+        p {
+            width: 900px;
+        }
+    }
+}
+
+@media (max-width: 910px) {
+    .razon {
+        p {
+            width: 800px;
+        }
+    }
+}
+
+@media (max-width: 730px) {
+    .razon {
+        p {
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width: 645px) {
+    .razon {
+        p {
+            font-size: 16px;
+            width: 700px;
+        }
+    }
+}
+
+@media (max-width: 495px) {
+    .razon {
+        p {
+            width: 500px;
+            margin-top: 20px;
+        }
+    }
+}
+
+@media (max-width: 455px) {
+    .razon {
+        height: 230px;
+    }
+}
+
+@media (max-width: 385px) {
+    .razon {
+        height: 250px;
+    }
+}
+
+@media (max-width: 352px) {
+    .razon {
+        height: 270px;
+    }
+}
+
+@media (max-width: 332px) {
+    .razon {
+        height: 290px;
+    }
+}
+
+.seccion_sinopsis_2 {
+    background-color: $color_main;
+    height: 700px;
+}
+
+.lecciones {
+    @include flex(wrap, auto, center);
+    height: 200px;
+
+    p {
+        @include texto($fuente_texto, 25px, justify, $color_blanco);
+        width: 1200px;
+        margin-left: 45px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .lecciones {
+        p {
+            font-size: 23px;
+            width: 1100px;
+        }
+    }
+}
+
+@media (max-width: 1350px) {
+    .lecciones {
+        p {
+            font-size: 21px;
+            width: 1000px;
+        }
+    }
+}
+
+@media (max-width: 1250px) {
+    .lecciones {
+        justify-content: center;
+
+        p {
+            font-size: 21px;
+            width: 1100px;
+            text-align: center;
+            margin-left: 0;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .lecciones {
+        p {
+            font-size: 20px;
+            width: 900px;
+        }
+    }
+}
+
+@media (max-width: 910px) {
+    .lecciones {
+        p {
+            width: 800px;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .lecciones {
+        p {
+            width: 700px;
+        }
+    }
+}
+
+@media (max-width: 730px) {
+    .lecciones {
+        p {
+            font-size: 18px;
+            width: 600px;
+        }
+    }
+}
+
+@media (max-width: 645px) {
+    .lecciones {
+        p {
+            font-size: 16px;
+            width: 500px;
+        }
+    }
+}
+
+@media (max-width: 525px) {
+    .lecciones {
+        p {
+            width: 400px;
+        }
+    }
+}
+
+@media (max-width: 495px) {
+    .lecciones {
+        p {
+            margin-top: 20px;
+        }
+    }
+}
+
+@media (max-width: 455px) {
+    .lecciones {
+        height: 230px;
+    }
+}
+
+@media (max-width: 385px) {
+    .lecciones {
+        height: 250px;
+
+        p {
+            width: 320px;
+        }
+    }
+}
+
+@media (max-width: 352px) {
+    .lecciones {
+        height: 270px;
+
+        p {
+            width: 300px;
+        }
+    }
+}
+
+@media (max-width: 332px) {
+    .lecciones {
+        height: 290px;
+    }
+}
+
+.ejemplos_lecciones {
+    @include flex(wrap, space-evenly, auto);
+}
+
+.card-title {
+    @include texto ($fuente_titulos, auto, center, $color_dorado);
+}
+
+.card-body {
+    @include flex(auto, center, auto);
+}
+
+#cuadrante {
+    width: 300px;
+}
+
+#carrera {
+    width: 600px;
+}
+
+@media (max-width: 1050px) {
+    .seccion_sinopsis_2 {
+        height: 600px;
+    }
+
+    #cuadrante {
+        width: 200px;
+    }
+
+    #carrera {
+        width: 400px;
+    }
+}
+
+@media (max-width: 750px) {
+    .seccion_sinopsis_2 {
+        height: 1150px;
+    }
+
+    #cuadrante {
+        width: 300px;
+    }
+
+    #carrera {
+        margin-top: 20px;
+        width: 500px;
+    }
+}
+
+@media (max-width: 590px) {
+    .seccion_sinopsis_2 {
+        height: 950px;
+    }
+
+    #cuadrante {
+        width: 200px;
+    }
+
+    #carrera {
+        width: 400px;
+    }
+
+    .card-title {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 460px) {
+    .seccion_sinopsis_2 {
+        height: 900px;
+    }
+    
+    #cuadrante {
+        width: 180px;
+    }
+
+    #carrera {
+        width: 300px;
+    }
+}
+
+@media (max-width: 360px) {
+    #cuadrante {
+        width: 170px;
+    }
+
+    #carrera {
+        width: 250px;
+    }
+}

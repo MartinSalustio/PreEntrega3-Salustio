@@ -1,0 +1,105 @@
+.footer {
+    background-color: $color_oscuro;
+}
+
+.footer h5 {
+    @include texto($fuente_titulos, 25px, auto, $color_dorado);
+}
+
+.footer p {
+    @include texto($fuente_texto, 20px, auto, white);
+}
+
+.footer ul a {
+    @include texto($fuente_texto, 20px, auto, white);
+}
+
+#twitter {
+    width: 70px;
+}
+
+#twitter:hover {
+    width: 80px;
+}
+
+#instagram {
+    width: 70px;
+}
+
+#instagram:hover {
+    width: 80px;
+}
+
+.seguir {
+    width: 280px;
+}
+
+.mas {
+    text-align: justify;
+}
+
+@media (max-width: 991px) {
+    .mas {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer h5 {
+        font-size: 20px;
+    }
+
+    .footer ul a {
+        font-size: 18px;
+    }
+
+    .footer p {
+        font-size: 18px;
+    }
+
+    #twitter {
+        width: 60px;
+    }
+    
+    #twitter:hover {
+        width: 70px;
+    }
+    
+    #instagram {
+        width: 60px;
+    }
+    
+    #instagram:hover {
+        width: 70px;
+    }
+}
+
+@media (max-width: 400px) {
+    .footer h5 {
+        font-size: 18px;
+    }
+
+    .footer ul a {
+        font-size: 16px;
+    }
+
+    .footer p {
+        font-size: 16px;
+    }
+
+    #twitter {
+        width: 50px;
+    }
+    
+    #twitter:hover {
+        width: 60px;
+    }
+    
+    #instagram {
+        width: 50px;
+    }
+    
+    #instagram:hover {
+        width: 60px;
+    }
+}

@@ -1,0 +1,16 @@
+// base
+@import 'base/reset';
+@import 'base/fonts';
+@import 'base/vars';
+@import 'base/utilities';
+
+// components
+@import 'components/navbar';
+@import 'components/footer';
+
+// layouts
+@import 'layouts/index';
+@import 'layouts/criticas';
+@import 'layouts/autor';
+@import 'layouts/cashflow';
+@import 'layouts/sugerencias';

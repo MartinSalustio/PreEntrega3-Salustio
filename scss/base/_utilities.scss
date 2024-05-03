@@ -1,0 +1,19 @@
+@mixin texto($family, $size, $align, $color) {
+    font-family: $family;
+    font-size: $size;
+    text-align: $align;
+    color: $color;
+}
+
+@mixin flex($wrap, $justify, $flex_align) {
+    display: flex;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+    align-items: $flex_align;
+}
+
+@mixin img($width, $height, $object) {
+    width: $width;
+    height: $height;
+    object-fit: $object;
+}

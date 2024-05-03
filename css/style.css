@@ -1,0 +1,1669 @@
+@font-face {
+  font-family: "oswald";
+  src: url(../fonts/oswald_regular.ttf);
+}
+@font-face {
+  font-family: "oswald_bold";
+  src: url(../fonts/oswald_bold.ttf);
+}
+.bg-nav {
+  background-color: #282A3A;
+}
+
+.bg-offcanvas {
+  background-color: #282A3A;
+}
+
+.navbar-brand img {
+  width: 220px;
+  height: auto;
+  object-fit: cover;
+}
+
+.offcanvas-title img {
+  width: 250px;
+  height: auto;
+  object-fit: cover;
+}
+
+.container-fluid h1 {
+  font-family: "oswald_bold";
+  font-size: 30px;
+  text-align: center;
+  color: #ECB365;
+  padding: 20px;
+  margin: 0;
+}
+
+.offcanvas-body a {
+  font-family: "oswald_bold";
+  font-size: 20px;
+  text-align: center;
+  color: auto;
+}
+
+@media (max-width: 720px) {
+  .navbar-brand img {
+    width: 200px;
+  }
+  .container-fluid h1 {
+    font-size: 25px;
+    padding: 10px;
+  }
+}
+@media (max-width: 615px) {
+  .navbar-brand img {
+    width: 150px;
+  }
+  .container-fluid h1 {
+    font-size: 20px;
+  }
+  #offcanvasDarkNavbar {
+    width: 300px;
+  }
+  .offcanvas-title img {
+    width: 200px;
+  }
+}
+@media (max-width: 510px) {
+  .container-fluid h1 {
+    font-size: 18px;
+    width: 130px;
+    padding: 5px;
+  }
+  #offcanvasDarkNavbar {
+    width: 270px;
+  }
+  .offcanvas-title img {
+    width: 180px;
+  }
+  .navbar-toggler-icon {
+    width: 25px;
+  }
+}
+@media (max-width: 400px) {
+  .container-fluid h1 {
+    padding: 0;
+    width: 110px;
+  }
+  .navbar-brand img {
+    width: 130px;
+  }
+  .navbar-toggler-icon {
+    width: 20px;
+  }
+}
+@media (max-width: 355px) {
+  .container-fluid h1 {
+    font-size: 16px;
+    width: 100px;
+  }
+  .navbar-brand img {
+    width: 110px;
+  }
+  .navbar-toggler-icon {
+    width: 18px;
+  }
+}
+.footer {
+  background-color: #282A3A;
+}
+
+.footer h5 {
+  font-family: "oswald_bold";
+  font-size: 25px;
+  text-align: auto;
+  color: #ECB365;
+}
+
+.footer p {
+  font-family: "oswald";
+  font-size: 20px;
+  text-align: auto;
+  color: white;
+}
+
+.footer ul a {
+  font-family: "oswald";
+  font-size: 20px;
+  text-align: auto;
+  color: white;
+}
+
+#twitter {
+  width: 70px;
+}
+
+#twitter:hover {
+  width: 80px;
+}
+
+#instagram {
+  width: 70px;
+}
+
+#instagram:hover {
+  width: 80px;
+}
+
+.seguir {
+  width: 280px;
+}
+
+.mas {
+  text-align: justify;
+}
+
+@media (max-width: 991px) {
+  .mas {
+    margin-left: 0;
+  }
+}
+@media (max-width: 600px) {
+  .footer h5 {
+    font-size: 20px;
+  }
+  .footer ul a {
+    font-size: 18px;
+  }
+  .footer p {
+    font-size: 18px;
+  }
+  #twitter {
+    width: 60px;
+  }
+  #twitter:hover {
+    width: 70px;
+  }
+  #instagram {
+    width: 60px;
+  }
+  #instagram:hover {
+    width: 70px;
+  }
+}
+@media (max-width: 400px) {
+  .footer h5 {
+    font-size: 18px;
+  }
+  .footer ul a {
+    font-size: 16px;
+  }
+  .footer p {
+    font-size: 16px;
+  }
+  #twitter {
+    width: 50px;
+  }
+  #twitter:hover {
+    width: 60px;
+  }
+  #instagram {
+    width: 50px;
+  }
+  #instagram:hover {
+    width: 60px;
+  }
+}
+.seccion_tapa {
+  background-color: rgba(39, 55, 77, 0.9254901961);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.seccion_tapa img {
+  width: 500px;
+  height: auto;
+  object-fit: cover;
+  margin-top: 20px;
+}
+.seccion_tapa p {
+  font-family: "oswald";
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  padding: 40px;
+  width: 700px;
+  background-color: #ECB365;
+  margin-top: 20px;
+}
+
+@media (max-width: 1400px) {
+  .seccion_tapa p {
+    font-size: 25px;
+    width: 600px;
+    padding: 30px;
+  }
+  .seccion_tapa img {
+    width: 400px;
+  }
+}
+@media (max-width: 1200px) {
+  .seccion_tapa p {
+    font-size: 23px;
+    width: 550px;
+    padding: 25px;
+  }
+  .seccion_tapa img {
+    width: 300px;
+  }
+}
+@media (max-width: 995px) {
+  .seccion_tapa img {
+    width: 500px;
+  }
+  .seccion_tapa p {
+    font-size: 30px;
+    width: 700px;
+    padding: 40px;
+  }
+}
+@media (max-width: 770px) {
+  .seccion_tapa img {
+    width: 400px;
+  }
+  .seccion_tapa p {
+    font-size: 25px;
+    width: 600px;
+    padding: 30px;
+  }
+}
+@media (max-width: 650px) {
+  .seccion_tapa img {
+    width: 400px;
+  }
+  .seccion_tapa p {
+    font-size: 21px;
+    width: 500px;
+    padding: 30px;
+  }
+}
+@media (max-width: 550px) {
+  .seccion_tapa p {
+    font-size: 21px;
+    width: 420px;
+    padding: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .seccion_tapa img {
+    width: 350px;
+  }
+  .seccion_tapa p {
+    font-size: 20px;
+    width: 380px;
+    padding: 20px;
+  }
+}
+@media (max-width: 420px) {
+  .seccion_tapa img {
+    width: 300px;
+  }
+  .seccion_tapa p {
+    font-size: 16px;
+    width: 320px;
+    padding: 20px;
+  }
+}
+@media (max-width: 360px) {
+  .seccion_tapa img {
+    width: 250px;
+  }
+  .seccion_tapa p {
+    width: 280px;
+    padding: 15px;
+  }
+}
+.seccion_sinopsis_1 {
+  background-color: rgba(39, 55, 77, 0.9254901961);
+}
+
+.titulo {
+  display: flex;
+  flex-wrap: auto;
+  justify-content: center;
+  align-items: flex-end;
+  height: 200px;
+}
+.titulo h2 {
+  font-family: "oswald_bold";
+  font-size: 35px;
+  text-align: center;
+  color: #DDE6ED;
+  width: 1300px;
+  text-decoration: underline;
+}
+
+@media (max-width: 1450px) {
+  .titulo h2 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1200px) {
+  .titulo h2 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 960px) {
+  .titulo h2 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 720px) {
+  .titulo h2 {
+    width: 600px;
+  }
+}
+@media (max-width: 670px) {
+  .titulo h2 {
+    font-size: 25px;
+    width: 500px;
+  }
+}
+@media (max-width: 650px) {
+  .titulo h2 {
+    font-size: 23px;
+    width: 450px;
+  }
+}
+@media (max-width: 600px) {
+  .titulo h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 450px) {
+  .titulo h2 {
+    font-size: 18px;
+    width: 400px;
+  }
+}
+@media (max-width: 400px) {
+  .titulo h2 {
+    font-size: 18px;
+    width: 300px;
+  }
+}
+.razon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  height: 200px;
+}
+.razon img {
+  width: 180px;
+  height: auto;
+  object-fit: cover;
+}
+.razon p {
+  font-family: "oswald";
+  font-size: 25px;
+  text-align: justify;
+  color: #DDE6ED;
+  width: 1200px;
+}
+
+@media (max-width: 1500px) {
+  .razon p {
+    font-size: 23px;
+    width: 1100px;
+  }
+  .razon img {
+    width: 170px;
+  }
+}
+@media (max-width: 1350px) {
+  .razon p {
+    font-size: 21px;
+    width: 1000px;
+  }
+  .razon img {
+    width: 160px;
+  }
+}
+@media (max-width: 1250px) {
+  .razon p {
+    font-size: 21px;
+    width: 1100px;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .razon img {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .razon p {
+    font-size: 20px;
+    width: 900px;
+  }
+}
+@media (max-width: 1150px) {
+  .razon p {
+    width: 900px;
+  }
+}
+@media (max-width: 910px) {
+  .razon p {
+    width: 800px;
+  }
+}
+@media (max-width: 730px) {
+  .razon p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 645px) {
+  .razon p {
+    font-size: 16px;
+    width: 700px;
+  }
+}
+@media (max-width: 495px) {
+  .razon p {
+    width: 500px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 455px) {
+  .razon {
+    height: 230px;
+  }
+}
+@media (max-width: 385px) {
+  .razon {
+    height: 250px;
+  }
+}
+@media (max-width: 352px) {
+  .razon {
+    height: 270px;
+  }
+}
+@media (max-width: 332px) {
+  .razon {
+    height: 290px;
+  }
+}
+.seccion_sinopsis_2 {
+  background-color: rgba(39, 55, 77, 0.9254901961);
+  height: 700px;
+}
+
+.lecciones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: auto;
+  align-items: center;
+  height: 200px;
+}
+.lecciones p {
+  font-family: "oswald";
+  font-size: 25px;
+  text-align: justify;
+  color: #DDE6ED;
+  width: 1200px;
+  margin-left: 45px;
+}
+
+@media (max-width: 1500px) {
+  .lecciones p {
+    font-size: 23px;
+    width: 1100px;
+  }
+}
+@media (max-width: 1350px) {
+  .lecciones p {
+    font-size: 21px;
+    width: 1000px;
+  }
+}
+@media (max-width: 1250px) {
+  .lecciones {
+    justify-content: center;
+  }
+  .lecciones p {
+    font-size: 21px;
+    width: 1100px;
+    text-align: center;
+    margin-left: 0;
+  }
+}
+@media (max-width: 1200px) {
+  .lecciones p {
+    font-size: 20px;
+    width: 900px;
+  }
+}
+@media (max-width: 910px) {
+  .lecciones p {
+    width: 800px;
+  }
+}
+@media (max-width: 800px) {
+  .lecciones p {
+    width: 700px;
+  }
+}
+@media (max-width: 730px) {
+  .lecciones p {
+    font-size: 18px;
+    width: 600px;
+  }
+}
+@media (max-width: 645px) {
+  .lecciones p {
+    font-size: 16px;
+    width: 500px;
+  }
+}
+@media (max-width: 525px) {
+  .lecciones p {
+    width: 400px;
+  }
+}
+@media (max-width: 495px) {
+  .lecciones p {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 455px) {
+  .lecciones {
+    height: 230px;
+  }
+}
+@media (max-width: 385px) {
+  .lecciones {
+    height: 250px;
+  }
+  .lecciones p {
+    width: 320px;
+  }
+}
+@media (max-width: 352px) {
+  .lecciones {
+    height: 270px;
+  }
+  .lecciones p {
+    width: 300px;
+  }
+}
+@media (max-width: 332px) {
+  .lecciones {
+    height: 290px;
+  }
+}
+.ejemplos_lecciones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: auto;
+}
+
+.card-title {
+  font-family: "oswald_bold";
+  font-size: auto;
+  text-align: center;
+  color: #ECB365;
+}
+
+.card-body {
+  display: flex;
+  flex-wrap: auto;
+  justify-content: center;
+  align-items: auto;
+}
+
+#cuadrante {
+  width: 300px;
+}
+
+#carrera {
+  width: 600px;
+}
+
+@media (max-width: 1050px) {
+  .seccion_sinopsis_2 {
+    height: 600px;
+  }
+  #cuadrante {
+    width: 200px;
+  }
+  #carrera {
+    width: 400px;
+  }
+}
+@media (max-width: 750px) {
+  .seccion_sinopsis_2 {
+    height: 1150px;
+  }
+  #cuadrante {
+    width: 300px;
+  }
+  #carrera {
+    margin-top: 20px;
+    width: 500px;
+  }
+}
+@media (max-width: 590px) {
+  .seccion_sinopsis_2 {
+    height: 950px;
+  }
+  #cuadrante {
+    width: 200px;
+  }
+  #carrera {
+    width: 400px;
+  }
+  .card-title {
+    font-size: 16px;
+  }
+}
+@media (max-width: 460px) {
+  .seccion_sinopsis_2 {
+    height: 900px;
+  }
+  #cuadrante {
+    width: 180px;
+  }
+  #carrera {
+    width: 300px;
+  }
+}
+@media (max-width: 360px) {
+  #cuadrante {
+    width: 170px;
+  }
+  #carrera {
+    width: 250px;
+  }
+}
+.frase_de_kiyosaki {
+  display: flex;
+  flex-wrap: auto;
+  justify-content: center;
+  align-items: auto;
+  background-color: black;
+}
+.frase_de_kiyosaki img {
+  width: 1000px;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 995px) {
+  .frase_de_kiyosaki img {
+    width: 800px;
+  }
+}
+@media (max-width: 800px) {
+  .frase_de_kiyosaki img {
+    width: 700px;
+  }
+}
+@media (max-width: 710px) {
+  .frase_de_kiyosaki img {
+    width: 600px;
+  }
+}
+@media (max-width: 600px) {
+  .frase_de_kiyosaki img {
+    width: 500px;
+  }
+}
+@media (max-width: 525px) {
+  .frase_de_kiyosaki img {
+    width: 400px;
+  }
+}
+@media (max-width: 405px) {
+  .frase_de_kiyosaki img {
+    width: 350px;
+  }
+}
+@media (max-width: 350px) {
+  .frase_de_kiyosaki img {
+    width: 315px;
+  }
+}
+.seccion_criticas {
+  background-color: rgba(39, 55, 77, 0.9254901961);
+}
+
+.criticas_titulo {
+  display: flex;
+  flex-wrap: auto;
+  justify-content: center;
+  align-items: auto;
+}
+.criticas_titulo h2 {
+  font-family: "oswald_bold";
+  font-size: 40px;
+  text-align: center;
+  color: #DDE6ED;
+  text-decoration: underline;
+  margin-top: 50px;
+}
+
+.criticas_texto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: auto;
+}
+.criticas_texto p {
+  font-family: "oswald";
+  font-size: 25px;
+  text-align: justify;
+  color: #DDE6ED;
+  margin-top: 40px;
+  width: 1400px;
+}
+
+@media (max-width: 1050px) {
+  .criticas_titulo h2 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 870px) {
+  .criticas_titulo h2 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 735px) {
+  .criticas_titulo h2 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 590px) {
+  .criticas_titulo h2 {
+    font-size: 23px;
+  }
+}
+@media (max-width: 530px) {
+  .criticas_titulo h2 {
+    width: 300px;
+  }
+}
+@media (max-width: 530px) {
+  .criticas_titulo h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .criticas_titulo h2 {
+    width: 250px;
+  }
+}
+@media (max-width: 1550px) {
+  .criticas_texto p {
+    font-size: 23px;
+  }
+}
+@media (max-width: 1485px) {
+  .criticas_texto p {
+    width: 1300px;
+  }
+}
+@media (max-width: 1400px) {
+  .criticas_texto p {
+    width: 1200px;
+  }
+}
+@media (max-width: 1275px) {
+  .criticas_texto p {
+    width: 1100px;
+  }
+}
+@media (max-width: 1180px) {
+  .criticas_texto p {
+    width: 1000px;
+  }
+}
+@media (max-width: 1075px) {
+  .criticas_texto p {
+    width: 900px;
+  }
+}
+@media (max-width: 975px) {
+  .criticas_texto p {
+    width: 800px;
+  }
+}
+@media (max-width: 900px) {
+  .criticas_texto p {
+    text-align: center;
+    width: 700px;
+  }
+}
+@media (max-width: 870px) {
+  .criticas_texto p {
+    width: 600px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 735px) {
+  .criticas_texto p {
+    width: 500px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 590px) {
+  .criticas_texto p {
+    width: 400px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 440px) {
+  .criticas_texto p {
+    width: 300px;
+  }
+}
+@media (max-width: 375px) {
+  .criticas_texto p {
+    width: 250px;
+  }
+}
+.video {
+  display: flex;
+  flex-wrap: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(39, 55, 77, 0.9254901961);
+  height: 500px;
+}
+
+.video a {
+  font-family: "oswald_bold";
+  font-size: 16px;
+  text-align: center;
+  color: #A5C9CA;
+  display: none;
+}
+
+@media (max-width: 630px) {
+  .video iframe {
+    width: 500px;
+  }
+}
+@media (max-width: 560px) {
+  .video iframe {
+    width: 450px;
+  }
+}
+@media (max-width: 510px) {
+  .video {
+    height: 70px;
+    align-items: flex-start;
+  }
+  .video iframe {
+    display: none;
+  }
+  .video a {
+    display: block;
+  }
+}
+@media (max-width: 400px) {
+  .video a {
+    width: 200px;
+  }
+}
+.biografia_1 {
+  background-color: rgba(39, 55, 77, 0.9254901961);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: auto;
+}
+
+#kiyosaki_card {
+  width: 500px;
+  margin: 30px 40px 0 40px;
+  background-color: rgba(39, 55, 77, 0.9254901961);
+  border: none;
+}
+
+#kiyosaki_card_body {
+  background-color: rgba(39, 55, 77, 0.9254901961);
+}
+
+#kiyosaki_card_text {
+  font-family: "oswald_bold";
+  font-size: 20px;
+  text-align: auto;
+  color: #DDE6ED;
+}
+
+.article_texto h2 {
+  font-family: "oswald_bold";
+  font-size: 40px;
+  text-align: auto;
+  color: #DDE6ED;
+  display: inline-block;
+  margin-top: 50px;
+}
+.article_texto p {
+  font-family: "oswald";
+  font-size: 25px;
+  text-align: justify;
+  color: #DDE6ED;
+  margin: 30px 40px 0 0;
+  width: 850px;
+}
+
+.biografia_2 {
+  background-color: rgba(39, 55, 77, 0.9254901961);
+}
+
+.texto_biografia_2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  height: 200px;
+}
+.texto_biografia_2 p {
+  font-family: "oswald";
+  font-size: 25px;
+  text-align: justify;
+  color: #DDE6ED;
+  margin: 0 60px 0 60px;
+}
+
+.carousel_biografia_2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 700px;
+}
+.carousel_biografia_2 p {
+  font-family: "oswald_bold";
+  font-size: 20px;
+  text-align: center;
+  color: #DDE6ED;
+  background-color: #282A3A;
+  border-radius: 50%;
+  padding: 50px;
+  width: 350px;
+  margin: 0 30px 0 30px;
+}
+
+.carousel {
+  width: 1000px;
+  margin-left: 30px;
+}
+
+@media (max-width: 1470px) {
+  .article_texto h2 {
+    font-size: 35px;
+  }
+  .article_texto p {
+    font-size: 23px;
+    width: 700px;
+  }
+  .texto_biografia_2 p {
+    font-size: 23px;
+  }
+  .carousel {
+    width: 800px;
+  }
+}
+@media (max-width: 1325px) {
+  .article_texto p {
+    width: 600px;
+  }
+  .carousel {
+    width: 750px;
+  }
+}
+@media (max-width: 1225px) {
+  .article_texto h2 {
+    font-size: 30px;
+  }
+  .article_texto p {
+    font-size: 21px;
+    width: 500px;
+  }
+  .texto_biografia_2 p {
+    font-size: 21px;
+  }
+  .carousel_biografia_2 p {
+    display: none;
+  }
+  .carousel {
+    width: 900px;
+    margin-right: 30px;
+  }
+  .carousel_biografia_2 {
+    height: 600px;
+  }
+}
+@media (max-width: 1120px) {
+  #kiyosaki_card {
+    width: 400px;
+  }
+  .article_texto p {
+    font-size: 19px;
+  }
+  .texto_biografia_2 p {
+    font-size: 19px;
+  }
+}
+@media (max-width: 1020px) {
+  #kiyosaki_card {
+    width: 600px;
+  }
+  .article_texto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: auto;
+  }
+  .article_texto p {
+    margin-left: 30px;
+    width: 900px;
+  }
+  .texto_biografia_2 p {
+    margin: 0 30px 0 30px;
+    width: 900px;
+  }
+}
+@media (max-width: 975px) {
+  #kiyosaki_card {
+    width: 500px;
+  }
+  .article_texto p {
+    width: 800px;
+  }
+  .texto_biografia_2 p {
+    width: 800px;
+  }
+  .carousel {
+    width: 800px;
+  }
+  .carousel_biografia_2 {
+    height: 550px;
+  }
+}
+@media (max-width: 875px) {
+  .article_texto p {
+    width: 700px;
+  }
+  .texto_biografia_2 p {
+    width: 700px;
+  }
+  .carousel {
+    width: 700px;
+  }
+  .carousel_biografia_2 {
+    height: 500px;
+  }
+}
+@media (max-width: 780px) {
+  #kiyosaki_card {
+    width: 400px;
+  }
+  .article_texto p {
+    width: 600px;
+  }
+  .texto_biografia_2 p {
+    width: 600px;
+  }
+  .carousel {
+    width: 600px;
+  }
+  .carousel_biografia_2 {
+    height: 450px;
+  }
+}
+@media (max-width: 685px) {
+  #kiyosaki_card_text {
+    font-size: 18px;
+  }
+  .article_texto h2 {
+    font-size: 25px;
+  }
+  .article_texto p {
+    font-size: 18px;
+    width: 500px;
+    text-align: center;
+  }
+  .texto_biografia_2 p {
+    font-size: 18px;
+    width: 500px;
+    text-align: center;
+  }
+  .carousel {
+    width: 500px;
+  }
+  .carousel_biografia_2 {
+    height: 400px;
+  }
+}
+@media (max-width: 600px) {
+  #kiyosaki_card {
+    width: 300px;
+  }
+  .article_texto h2 {
+    font-size: 23px;
+  }
+}
+@media (max-width: 570px) {
+  #kiyosaki_card_text {
+    font-size: 16px;
+  }
+  .article_texto h2 {
+    font-size: 21px;
+  }
+  .article_texto p {
+    font-size: 16px;
+    width: 400px;
+  }
+  .texto_biografia_2 p {
+    font-size: 16px;
+    width: 400px;
+    margin-top: 20px;
+  }
+  .carousel {
+    width: 400px;
+  }
+  .carousel_biografia_2 {
+    height: 350px;
+  }
+}
+@media (max-width: 475px) {
+  .article_texto p {
+    width: 300px;
+  }
+  .texto_biografia_2 p {
+    width: 300px;
+  }
+  .carousel {
+    width: 300px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .carousel_biografia_2 {
+    height: 300px;
+  }
+}
+@media (max-width: 385px) {
+  #kiyosaki_card {
+    width: 250px;
+  }
+  .article_texto h2 {
+    font-size: 18px;
+  }
+  .article_texto p {
+    width: 250px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .texto_biografia_2 p {
+    width: 250px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .carousel {
+    width: 250px;
+    margin-top: 80px;
+  }
+  .carousel_biografia_2 {
+    height: 250px;
+  }
+}
+@media (max-width: 360px) {
+  #kiyosaki_card {
+    width: 200px;
+  }
+}
+.tablero_cashflow {
+  background-color: rgba(39, 55, 77, 0.9254901961);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: auto;
+}
+.tablero_cashflow p {
+  font-family: "oswald_bold";
+  font-size: 25px;
+  text-align: center;
+  color: #DDE6ED;
+  width: 700px;
+  margin-top: 10px;
+}
+.tablero_cashflow img {
+  width: 900px;
+  height: auto;
+  object-fit: cover;
+  margin-top: 40px;
+}
+
+@media (max-width: 1200px) {
+  .tablero_cashflow img {
+    width: 800px;
+  }
+  .tablero_cashflow p {
+    font-size: 23px;
+    width: 650px;
+  }
+}
+@media (max-width: 1050px) {
+  .tablero_cashflow img {
+    width: 700px;
+  }
+  .tablero_cashflow p {
+    font-size: 21px;
+    width: 550px;
+  }
+}
+@media (max-width: 800px) {
+  .tablero_cashflow img {
+    width: 600px;
+  }
+  .tablero_cashflow p {
+    width: 450px;
+  }
+}
+@media (max-width: 700px) {
+  .tablero_cashflow img {
+    width: 500px;
+  }
+  .tablero_cashflow p {
+    font-size: 18px;
+    width: 400px;
+  }
+}
+@media (max-width: 600px) {
+  .tablero_cashflow img {
+    width: 400px;
+  }
+  .tablero_cashflow p {
+    font-size: 16px;
+    width: 350px;
+  }
+}
+@media (max-width: 490px) {
+  .tablero_cashflow img {
+    width: 350px;
+  }
+  .tablero_cashflow p {
+    width: 250px;
+  }
+}
+@media (max-width: 420px) {
+  .tablero_cashflow img {
+    width: 300px;
+  }
+  .tablero_cashflow p {
+    width: 230px;
+  }
+}
+@media (max-width: 370px) {
+  .tablero_cashflow img {
+    width: 250px;
+  }
+  .tablero_cashflow p {
+    width: 200px;
+  }
+}
+.explicacion {
+  background-color: rgba(39, 55, 77, 0.9254901961);
+}
+
+.definicion_titulo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.definicion_titulo h2 {
+  font-family: "oswald_bold";
+  font-size: 40px;
+  text-align: center;
+  color: #DDE6ED;
+  text-decoration: underline;
+}
+
+.definicion_texto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: auto;
+}
+.definicion_texto p {
+  font-family: "oswald";
+  font-size: 25px;
+  text-align: justify;
+  color: #DDE6ED;
+  width: 1400px;
+  margin: 20px 40px 0 40px;
+}
+
+.razones {
+  background-color: rgba(39, 55, 77, 0.9254901961);
+}
+
+.razones_titulo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.razones_titulo h2 {
+  font-family: "oswald_bold";
+  font-size: 40px;
+  text-align: center;
+  color: #DDE6ED;
+  text-decoration: underline;
+}
+
+.razones_texto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.razones_texto ul li {
+  font-family: "oswald";
+  font-size: 25px;
+  text-align: justify;
+  color: #DDE6ED;
+  width: 1000px;
+  margin-bottom: 20px;
+}
+.razones_texto img {
+  width: 320px;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 1440px) {
+  .razones_texto {
+    justify-content: flex-start;
+  }
+  .razones_texto ul li {
+    margin-left: 40px;
+    width: 100%;
+  }
+  .razones_texto img {
+    display: none;
+  }
+}
+@media (max-width: 1050px) {
+  .definicion_titulo h2 {
+    font-size: 35px;
+  }
+  .definicion_texto p {
+    font-size: 23px;
+  }
+  .razones_titulo h2 {
+    font-size: 35px;
+  }
+  .razones_texto ul li {
+    font-size: 23px;
+  }
+}
+@media (max-width: 875px) {
+  .razones_texto ul li {
+    width: 650px;
+  }
+}
+@media (max-width: 760px) {
+  .razones_texto ul li {
+    width: 550px;
+  }
+}
+@media (max-width: 700px) {
+  .definicion_titulo h2 {
+    font-size: 30px;
+  }
+  .definicion_texto p {
+    font-size: 21px;
+  }
+  .razones_titulo h2 {
+    font-size: 30px;
+  }
+  .razones_texto ul li {
+    font-size: 21px;
+  }
+}
+@media (max-width: 670px) {
+  .razones_texto ul li {
+    width: 450px;
+  }
+}
+@media (max-width: 600px) {
+  .definicion_titulo h2 {
+    font-size: 25px;
+  }
+  .definicion_texto p {
+    font-size: 18px;
+    text-align: center;
+  }
+  .razones_titulo h2 {
+    font-size: 25px;
+  }
+  .razones_texto ul li {
+    font-size: 18px;
+  }
+}
+@media (max-width: 570px) {
+  .razones_texto ul li {
+    width: 300px;
+  }
+}
+@media (max-width: 430px) {
+  .definicion_titulo h2 {
+    font-size: 20px;
+  }
+  .definicion_texto p {
+    font-size: 16px;
+  }
+  .razones_titulo h2 {
+    font-size: 20px;
+  }
+  .razones_texto ul li {
+    font-size: 16px;
+    width: 250px;
+  }
+}
+@media (max-width: 380px) {
+  .razones_texto ul li {
+    width: 200px;
+  }
+}
+@media (max-width: 360px) {
+  .razones_titulo h2 {
+    width: 200px;
+  }
+  .razones_texto ul li {
+    width: 190px;
+  }
+}
+.cierre {
+  display: flex;
+  flex-wrap: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(39, 55, 77, 0.9254901961);
+  height: 200px;
+}
+.cierre p {
+  font-family: "oswald_bold";
+  font-size: 27px;
+  text-align: center;
+  color: #DDE6ED;
+  width: 1400px;
+}
+
+@media (max-width: 1400px) {
+  .cierre p {
+    width: 1200px;
+  }
+}
+@media (max-width: 1200px) {
+  .cierre p {
+    font-size: 25px;
+    width: 1100px;
+  }
+}
+@media (max-width: 1100px) {
+  .cierre p {
+    font-size: 23px;
+    width: 1000px;
+  }
+}
+@media (max-width: 1030px) {
+  .cierre p {
+    width: 900px;
+  }
+}
+@media (max-width: 950px) {
+  .cierre p {
+    width: 800px;
+  }
+}
+@media (max-width: 850px) {
+  .cierre p {
+    width: 700px;
+  }
+}
+@media (max-width: 760px) {
+  .cierre p {
+    width: 600px;
+  }
+}
+@media (max-width: 720px) {
+  .cierre p {
+    font-size: 21px;
+  }
+}
+@media (max-width: 630px) {
+  .cierre p {
+    width: 500px;
+  }
+}
+@media (max-width: 620px) {
+  .cierre p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 540px) {
+  .cierre p {
+    width: 400px;
+  }
+}
+@media (max-width: 460px) {
+  .cierre p {
+    font-size: 16px;
+    width: 350px;
+  }
+}
+@media (max-width: 390px) {
+  .cierre p {
+    width: 270px;
+  }
+}
+.libros {
+  background-color: rgba(39, 55, 77, 0.9254901961);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: auto;
+}
+
+.card {
+  width: 380px;
+  border: none;
+  margin-bottom: 100px;
+}
+
+.card-body {
+  background-color: #282A3A;
+  display: flex;
+  flex-wrap: auto;
+  justify-content: auto;
+  align-items: center;
+}
+
+.card-text {
+  font-family: "oswald";
+  font-size: 20px;
+  text-align: center;
+  color: #DDE6ED;
+}
+
+@media (max-width: 1300px) {
+  .card {
+    width: 330px;
+  }
+}
+@media (max-width: 1130px) {
+  .card {
+    width: 300px;
+  }
+}
+@media (max-width: 1030px) {
+  .card {
+    width: 270px;
+  }
+  .card-text {
+    font-size: 18px;
+  }
+}
+@media (max-width: 950px) {
+  .card {
+    width: 250px;
+  }
+}
+@media (max-width: 880px) {
+  .card {
+    width: 230px;
+  }
+}
+@media (max-width: 790px) {
+  .card {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .card-text {
+    font-size: 16px;
+  }
+}
+@media (max-width: 600px) {
+  .card {
+    width: 210px;
+  }
+}
+@media (max-width: 560px) {
+  .card {
+    width: 190px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media (max-width: 490px) {
+  .card {
+    width: 300px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+@media (max-width: 460px) {
+  .card {
+    width: 250px;
+  }
+}
+@media (max-width: 390px) {
+  .card {
+    width: 230px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
