@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: "oswald";
   src: url(../fonts/oswald_regular.ttf);
@@ -1587,16 +1593,32 @@
 .card-body {
   background-color: #282A3A;
   display: flex;
-  flex-wrap: auto;
+  flex-wrap: wrap;
   justify-content: auto;
   align-items: center;
 }
-
-.card-text {
+.card-body .card-title {
+  font-family: "oswald_bold";
+  font-size: 25px;
+  text-align: center;
+  color: #ECB365;
+}
+.card-body .card-text {
   font-family: "oswald";
   font-size: 20px;
   text-align: center;
   color: #DDE6ED;
+}
+.card-body .btn-primary {
+  font-family: "oswald";
+  font-size: 20px;
+  text-align: center;
+  color: #DDE6ED;
+  background-color: #064663;
+  border: none;
+}
+.card-body .btn-primary:hover {
+  background-color: rgba(6, 70, 99, 0.7098039216);
 }
 
 @media (max-width: 1300px) {

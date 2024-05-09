@@ -129,11 +129,25 @@
 
 .card-body {
     background-color: $color_oscuro;
-    @include flex(auto, auto, center);
-}
+    @include flex(wrap, auto, center);
 
-.card-text {
-    @include texto($fuente_texto, 20px, center, $color_blanco);
+    .card-title {
+        @include texto($fuente_titulos, 25px, center, $color_dorado);
+    }
+
+    .card-text {
+        @include texto($fuente_texto, 20px, center, $color_blanco);
+    }
+
+    .btn-primary {
+        @include texto($fuente_texto, 20px, center, $color_blanco);
+        background-color: $color_botones;
+        border: none;
+
+        &:hover {
+            background-color: $color_botones_oscuros;
+        }
+    }
 }
 
 @media (max-width: 1300px) {
