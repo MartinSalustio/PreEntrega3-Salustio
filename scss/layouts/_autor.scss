@@ -167,6 +167,10 @@
     .article_texto {
         @include flex(wrap, center, auto);
 
+        h2 {
+            text-decoration: underline;
+        }
+
         p {
             margin-left: 30px;
             width: 900px;

@@ -221,6 +221,14 @@
             }
         }
     }
+
+    .definicion_titulo {
+        height: 150px;
+    }
+
+    .razones_titulo {
+        height: 150px;
+    }
 }
 
 @media (max-width: 760px) {
@@ -273,6 +281,8 @@
 
 @media (max-width: 600px) {
     .definicion_titulo {
+        height: 100px;
+
         h2 {
             font-size: 25px;
         }
@@ -286,6 +296,8 @@
     }
 
     .razones_titulo {
+        height: 120px;
+
         h2 {
             font-size: 25px;
         }
@@ -312,6 +324,8 @@
 
 @media (max-width: 430px) {
     .definicion_titulo {
+        height: 80px;
+
         h2 {
             font-size: 20px;
         }
